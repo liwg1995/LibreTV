@@ -1,4 +1,4 @@
-// 改进的API请求处理函数
+ // 改进的API请求处理函数
 async function handleApiRequest(url) {
     const customApi = url.searchParams.get('customApi') || '';
     const customDetail = url.searchParams.get('customDetail') || '';
